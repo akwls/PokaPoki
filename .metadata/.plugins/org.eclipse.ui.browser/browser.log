@@ -1,0 +1,14 @@
+
+10월 18, 2021 17:11:30.698 NEW SESSION
+10월 18, 2021 17:11:30.698 [9376:11052:1018/171130.673:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 18, 2021 17:11:30.705 [9376:11052:1018/171130.673:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 18, 2021 17:11:30.710 [9376:11052:1018/171130.673:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 18, 2021 17:11:30.716 [9376:11052:1018/171130.682:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+10월 18, 2021 17:11:30.723 [9376:21164:1018/171130.686:ERROR:device_event_log_impl.cc(214)] [17:11:30.686] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 18, 2021 17:40:11.40 [9376:21164:1018/174011.039:ERROR:device_event_log_impl.cc(214)] [17:40:11.039] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+10월 18, 2021 18:08:08.06 [9376:21164:1018/180807.983:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+10월 18, 2021 18:22:25.963 [9376:21164:1018/182225.962:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+10월 18, 2021 18:33:04.580 [9376:21164:1018/183304.580:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+10월 18, 2021 18:35:18.105 [9376:21164:1018/183518.104:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+10월 18, 2021 18:37:30.542 [9376:21164:1018/183730.541:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+10월 18, 2021 18:38:52.980 [9376:21164:1018/183852.980:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/core/sdk/sdk.js (1)

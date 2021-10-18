@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@font-face{
+	src: url("./fonts/NEODGM.TTF");
+    font-family: "neo"; 
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: 1px solid red;
+	
+}
+body {
+	font-family: "neo";
+}
+
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #E3B9FF;
+}
+
+.nav-container {
+	
+}
+
+.nav-title {
+	margin-top: 10px;
+}
+
+.products-container {
+	width: 100%;
+}
+
+.product {
+	display: inline-block;
+}
