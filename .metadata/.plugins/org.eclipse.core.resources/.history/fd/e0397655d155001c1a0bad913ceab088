@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <script>
+     function sortList(data) {
+    	 
+     }
+    </script>
+<div class="form-group row">
+	<p><a id="btn" class="btn btn-primary" role="button" onclick="sortList()">검색하기&raquo;</a></p>
+	<p><a id="btn" class="btn btn-primary" role="button" onclick="searchFunc()">검색하기&raquo;</a></p>
+	<p><a id="btn" class="btn btn-primary" role="button" onclick="searchFunc()">검색하기&raquo;</a></p>
+</div>

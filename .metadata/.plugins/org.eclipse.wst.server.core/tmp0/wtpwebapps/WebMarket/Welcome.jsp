@@ -13,9 +13,9 @@
 		String greeting = "포토카드 거래 웹사이트";
 		String tagline = "포카포키에 오신 것을 환영합니다!";
 	%>
-	<div class="jumbotron">
+	<div class="jumbotron" style="background-color: #00acee;">
 		<div class="container">
-			<h1 class="display-3"><%= greeting %></h1>
+			<h1 class="display-3" style="color: #ffffff;"><%= greeting %></h1>
 		</div>
 	</div>
 	<main role="main">

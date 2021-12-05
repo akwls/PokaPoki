@@ -19,7 +19,7 @@
 		String member = multi.getParameter("member");
 		String album = multi.getParameter("album");
 		String description = multi.getParameter("description");
-		String condition = multi.getParameter("condition");
+		String condition = multi.getParameter("category");
 		String p = multi.getParameter("price");
 		
 		int price;
@@ -51,7 +51,7 @@
 				pstmt.setString(7, filename);
 				pstmt.setString(8, productId);
 				
-				pstmt.executeUpdate(sql);
+				pstmt.executeUpdate();
 			}
 			else {
 				sql = "UPDATE product SET p_group = ?, p_album = ?, p_member = ?, p_price = ?, p_description = ?, p_condition = ? where p_id = ?;";

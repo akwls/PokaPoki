@@ -13,9 +13,9 @@
 </head>
 <body>
 	<jsp:include page="menu.jsp" />
-	<div class="jumbotron">
+	<div class="jumbotron" style="background-color: #00acee;">
 		<div class="container">
-			<h1 class="display-3">상품 등록</h1>
+			<h1 class="display-3" style="color: #ffffff;">상품 등록</h1>
 		</div>
 	</div>
 	<div class="container">
@@ -51,7 +51,7 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-sm-2">상세 정보</label>
+				<label class="col-sm-2">포카 별명</label>
 				<div class="col-sm-3">
 					<textarea name="description" rows="2" column="50" class="form-control"></textarea>
 				</div>

@@ -15,9 +15,9 @@
 <body>
 
 	<jsp:include page="menu.jsp" />
-	<div class="jumbotron">
+	<div class="jumbotron" style="background-color: #00acee;">
 		<div class="container">
-			<h1 class="display-3">장바구니</h1>
+			<h1 class="display-3" style="color: #ffffff;">장바구니</h1>
 		</div>
 	</div>
 	<div class="container">
@@ -39,7 +39,7 @@
 					<th>멤버</th>
 					<th>이름</th>
 					<th>가격</th>
-					<th>비고</th>
+					<th>구분</th>
 				</tr>
 				<%
 					int sum = 0;

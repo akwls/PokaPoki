@@ -20,9 +20,9 @@
 %>
 <body>
 <jsp:include page="menu.jsp" />
-<div class="jumbotron">
+<div class="jumbotron" style="background-color: #00acee;">
 	<div class="container">
-		<h1 class="display-3">상품편집</h1>
+		<h1 class="display-3" style="color: #ffffff;">상품편집</h1>
 	</div>
 </div>
 <div class="container">
@@ -40,6 +40,7 @@
 		<div class="col-md-4">
 			<img src="C:/upload/<%=rs.getString("p_fileName") %>" style="width:100%">
 			<h3><%= rs.getString("p_group") %> <%= rs.getString("p_member") %></h3>
+			<p><%= rs.getString("p_description") %></p>
 			<p><%= rs.getString("p_album") %></p>
 			<p><%= rs.getString("p_price") %>원</p>
 			<p><%

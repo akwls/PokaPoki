@@ -20,7 +20,7 @@
 		String member = multi.getParameter("member");
 		String album = multi.getParameter("album");
 		String description = multi.getParameter("description");
-		String condition = multi.getParameter("condition");
+		String condition = multi.getParameter("category");
 		String p = multi.getParameter("price");
 		
 		int price;

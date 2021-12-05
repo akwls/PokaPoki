@@ -1,5 +1,6 @@
 <%@page import ="java.sql.*" %>
 <%@page import="java.util.ArrayList"%>
+<%@page import="java.net.URLDecoder" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" /> 
@@ -12,16 +13,19 @@
 </head>
 <body>
 	<jsp:include page="menu.jsp" />
-	<div class="jumbotron">
+	<div class="jumbotron" style="background-color: #00acee;">
 		<div class="container">
-			<h1 class="display-3">검색 결과</h1>
+			<h1 class="display-3" style="color: #ffffff;">검색 결과</h1>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row" align="center">
 		<%@ include file="dbconn.jsp" %>
 			<%
+				
 				String s = request.getParameter("search");
+				s = URLDecoder.decode(s, "utf-8");
+			
 				PreparedStatement pstmt = null;
 				ResultSet rs = null;
 				String sql = "SELECT * FROM product where p_group = ? or p_album = ? or p_member = ? or p_description = ?";
