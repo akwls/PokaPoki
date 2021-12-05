@@ -1,0 +1,45 @@
+<%@page import ="java.sql.*" %>
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" /> 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./resources/css/bootstrap.min.css">
+<title>검색하기</title>
+<script>
+	let input = document.getElementById("search");
+	let v = input.value;
+	let btn = document.getElementById("btn");
+	function searchFunc() {
+		location.href=`./searchResult.jsp?search=${input.value}`;
+	}
+
+</script>
+</head>
+<body>
+	<jsp:include page="menu.jsp" />
+	<div class="jumbotron">
+		<div class="container">
+			<h1 class="display-3">검색하기</h1>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row" align="center">
+			<div class="col-md-4">
+				<div class="form-group row">
+					<label class="col-sm-2"></label>
+					<div class="col-sm-10">
+						<input type="text" id="search" name="search" class="form-control" placeholder="검색어를 입력하세요."/>
+					</div>
+				</div>
+				<p><a id="btn" class="btn btn-secondary" role="button" onclick="searchFunc()"> 상세 정보&raquo;</a></p>
+			</div>
+		</div>
+		<hr>
+	</div>
+	<jsp:include page="footer.jsp"/>
+</body>
+</html>

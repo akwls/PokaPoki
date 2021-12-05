@@ -1,9 +1,0 @@
-<nav>
-	<div class="nav-container">
-		<a href="./Products.jsp" class="nav-title">PokaPoki</a>
-		<div>
-			<input type="text" />
-			<input type="button" class="btn-search"/>
-		</div>
-	</div>
-</nav>

@@ -1,0 +1,111 @@
+package dto;
+import java.io.Serializable;
+
+public class Product implements Serializable {
+	private static final long seralVersionUID = -4274700572038677000L;
+	
+	private String productId; 		// �긽�뭹 �븘�씠�뵒
+	private String pGroup;
+	private String pMember;
+	private String pAlbum;
+	private Integer unitPrice; 		// �긽�뭹 媛�寃�
+	private String description; 	// �긽�뭹 �꽕紐�
+	private String category; 		// �떊�긽�뭹 or 以묎퀬�뭹 or �옱�깮�뭹
+	private String filename;		// �씠誘몄� �뙆�씪紐�
+	private int quantity;			// 장바구니에 담은 개수
+	
+	public Product () {
+		super();
+	}
+
+	public Product(String productId, String member, Integer price) {
+		super();
+		this.productId = productId;
+		this.pMember = member;
+		this.unitPrice = price;
+	}
+
+	public String getProductId() {
+		return productId;
+	}
+
+	public void setProductId(String productId) {
+		this.productId = productId;
+	}
+
+	public String getpGroup() {
+		return pGroup;
+	}
+
+	public void setpGroup(String pGroup) {
+		this.pGroup = pGroup;
+	}
+
+	public String getpMember() {
+		return pMember;
+	}
+
+	public void setpMember(String pMember) {
+		this.pMember = pMember;
+	}
+
+	public String getpAlbum() {
+		return pAlbum;
+	}
+
+	public void setpAlbum(String pAlbum) {
+		this.pAlbum = pAlbum;
+	}
+
+	public Integer getUnitPrice() {
+		return unitPrice;
+	}
+
+	public void setUnitPrice(Integer unitPrice) {
+		this.unitPrice = unitPrice;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
+	public String getFilename() {
+		return filename;
+	}
+
+	public void setFilename(String filename) {
+		this.filename = filename;
+	}
+	
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
+	public static long getSeralversionuid() {
+		return seralVersionUID;
+	}
+	
+	
+
+	
+	
+	
+	
+	
+}

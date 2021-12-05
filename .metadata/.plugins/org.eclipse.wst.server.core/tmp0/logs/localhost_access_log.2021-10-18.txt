@@ -693,3 +693,9 @@
 0:0:0:0:0:0:0:1 - - [18/Oct/2021:18:41:09 +0900] "GET /WebMarket/css/fonts/NEODGM.TTF HTTP/1.1" 404 1303
 0:0:0:0:0:0:0:1 - - [18/Oct/2021:18:41:09 +0900] "GET /WebMarket/Products.jsp HTTP/1.1" 200 2066
 0:0:0:0:0:0:0:1 - - [18/Oct/2021:18:41:09 +0900] "GET /WebMarket/css/fonts/NEODGM.TTF HTTP/1.1" 404 1303
+127.0.0.1 - - [18/Oct/2021:19:00:07 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [18/Oct/2021:19:00:09 +0900] "GET /WebMarket/addProduct.jsp HTTP/1.1" 200 1855
+0:0:0:0:0:0:0:1 - - [18/Oct/2021:19:00:09 +0900] "GET /WebMarket/image/loupe.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Oct/2021:19:00:09 +0900] "GET /WebMarket/image/shopping-cart.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Oct/2021:19:00:09 +0900] "GET /WebMarket/image/plus.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Oct/2021:19:00:09 +0900] "GET /WebMarket/image/user.png HTTP/1.1" 304 -

@@ -1,0 +1,18 @@
+아이디, 그룹, 앨범, 멤버, 가격, 카테고리, 컨디션, 파일이름, 설명
+
+
+아이디, 그룹, 앨범, 멤버, 가격, 설명, 카테고리, 컨디션, 파일이름
+
+
+create table product (
+p_id varchar(10) primary key,
+p_group varchar(20),
+p_album varchar(30),
+p_member varchar(15),
+p_price int,
+p_description text,
+p_condition varchar(20),
+p_fileName varchar(30)
+);
+
+insert into product values("P1111", "NCT 127", "정규 2집 - NCT #127 Neo Zone", "정우", 35000, "방금 까서 하자 없습니다.", "앨범 포카", "P1111.png");

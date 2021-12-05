@@ -1,0 +1,49 @@
+package dao;
+
+import java.util.ArrayList;
+
+import dto.Product;
+
+public class ProductRepository {
+	private ArrayList<Product> listOfProducts = new ArrayList<Product>();
+	private static ProductRepository instance = new ProductRepository();
+	
+	public static ProductRepository getInstance() {
+		return instance;
+	}
+	
+	public ProductRepository() {
+		Product p1 = new Product("P1111", "정우", 35000);
+		p1.setpGroup("NCT 127");
+		p1.setpAlbum("정규 2집 - NCT #127 Neo Zone");
+		p1.setDescription("방금 까서 하자 없습니다.");
+		p1.setCategory("앨범 포카");
+		p1.setFilename("P1111.png");
+		
+		
+		listOfProducts.add(p1);
+	*/
+	}
+	
+	public ArrayList<Product> getAllProducts() {
+		return listOfProducts;
+	}
+	
+	public Product getProductById(String productId) {
+		Product productById = null;
+		for (int i = 0; i < listOfProducts.size(); i++) {
+			Product product = listOfProducts.get(i);
+			if(product != null && product.getProductId() != null && product.getProductId().equals(productId)) {
+				productById = product;
+				break;
+			}
+		}
+		return productById;
+	}
+	
+	public void addProduct(Product product) {
+		listOfProducts.add(product);
+	}
+	
+	
+}
